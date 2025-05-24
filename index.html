@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Добро пожаловать</h1>
+            <p>Это современный и стильный веб-сайт</p>
+            <button class="cta-button">Подробнее</button>
+        </section>
+
+        <section id="about" class="about">
+            <h2>О нас</h2>
+            <p>Мы команда профессионалов, создающая качественные решения для наших клиентов.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Веб-разработка</h3>
+                    <p>Создание современных веб-сайтов</p>
+                </div>
+                <div class="service-card">
+                    <h3>Дизайн</h3>
+                    <p>Создание уникального дизайна</p>
+                </div>
+                <div class="service-card">
+                    <h3>SEO</h3>
+                    <p>Оптимизация для поисковых систем</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Свяжитесь с нами</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Мой сайт. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
